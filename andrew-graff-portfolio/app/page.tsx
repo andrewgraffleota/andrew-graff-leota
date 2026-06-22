@@ -6,7 +6,7 @@ export default function Portfolio() {
       
       {/* Navigation */}
       <nav className="p-6 flex justify-between items-center max-w-6xl mx-auto">
-        <div className="font-bold text-xl tracking-tight">AG.</div>
+        <div className="font-bold text-xl tracking-tight">AGL.</div>
         <div className="space-x-6">
           <a href="#about" className="hover:text-blue-600 transition">About</a>
           <a href="#projects" className="hover:text-blue-600 transition">Engineering</a>
@@ -22,7 +22,7 @@ export default function Portfolio() {
             I build <span className="text-blue-600">software</span>, engineer data, and grow audiences.
           </h1>
           <p className="text-xl text-gray-600 mb-8 max-w-2xl leading-relaxed">
-            Hi, I'm Andrew Graff. I'm a full-stack developer and data engineer based in Wellington, NZ. 
+            Hi, I'm Andrew Graff Leota. I'm a full-stack developer and data engineer based in Wellington, NZ. 
             When I'm not writing production code or building automation pipelines, I create fitness content for thousands of people.
           </p>
           <div className="flex space-x-4">
@@ -123,7 +123,7 @@ export default function Portfolio() {
 
       {/* Footer */}
       <footer className="bg-black text-gray-400 py-12 text-center">
-        <p>© {new Date().getFullYear()} Andrew Graff. Built with Next.js and Tailwind.</p>
+        <p>© {new Date().getFullYear()} Andrew Graff Leota. Built with Next.js and Tailwind.</p>
       </footer>
     </div>
   );
