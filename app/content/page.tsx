@@ -1,25 +1,77 @@
+const channels = [
+  {
+    name: "YouTube",
+    description:
+      "Long-form videos covering my fitness journey, learning process, projects, and personal development.",
+    link: "https://youtube.com/@andrewgraffleota",
+    preview: "Video preview area",
+  },
+  {
+    name: "TikTok",
+    description:
+      "Short-form content showing training, lifestyle, study, and behind-the-scenes clips.",
+    link: "https://tiktok.com/@andrewgraffleota",
+    preview: "Short-form preview area",
+  },
+  {
+    name: "Instagram",
+    description:
+      "A visual feed for fitness, lifestyle, learning, and personal brand updates.",
+    link: "https://instagram.com/andrewgraffleota",
+    preview: "Grid preview area",
+  },
+  {
+    name: "LinkedIn",
+    description:
+      "Professional updates, internship reflections, project summaries, and career development.",
+    link: "https://www.linkedin.com/in/andrew-graff-leota-a06387111",
+    preview: "Professional profile preview",
+  },
+];
+
 export default function ContentPage() {
   return (
-    <main className="min-h-screen bg-[#050505] px-6 pt-36 pb-24 text-white">
-      <section className="mx-auto max-w-5xl text-center">
-        <p className="mb-3 text-sm font-semibold uppercase tracking-[0.3em] text-red-400">Content</p>
-        <h1 className="text-5xl font-black tracking-tight md:text-7xl">Building audiences.</h1>
-
-        <p className="mx-auto mt-8 max-w-3xl text-xl leading-9 text-gray-400">
-          Alongside software and cybersecurity, I create content around fitness, lifestyle, learning and personal growth.
+    <main className="mx-auto max-w-6xl px-4 py-16 text-white">
+      <section className="mb-12">
+        <p className="mb-3 text-sm font-semibold uppercase tracking-widest text-cyan-400">
+          Content
         </p>
+        <h1 className="mb-6 text-4xl font-bold tracking-tight md:text-6xl">
+          Channels and Personal Brand
+        </h1>
+        <p className="max-w-3xl text-lg leading-8 text-zinc-300">
+          Outside of study and software development, I create content around my
+          journey, fitness, learning, personal development, and career growth.
+        </p>
+      </section>
 
-        <div className="mt-12 flex flex-col justify-center gap-4 sm:flex-row">
-          <a href="https://youtube.com/@andrewgraffleota" target="_blank" rel="noreferrer" className="rounded-full bg-white px-7 py-3 font-semibold text-black hover:bg-gray-200">
-            YouTube
-          </a>
-          <a href="https://tiktok.com/@andrewgraffleota" target="_blank" rel="noreferrer" className="rounded-full border border-white/15 px-7 py-3 font-semibold text-white hover:bg-white/10">
-            TikTok
-          </a>
-          <a href="https://instagram.com/andrewgraffleota" target="_blank" rel="noreferrer" className="rounded-full border border-white/15 px-7 py-3 font-semibold text-white hover:bg-white/10">
-            Instagram
-          </a>
-        </div>
+      <section className="grid gap-6 md:grid-cols-2">
+        {channels.map((channel) => (
+          <article
+            key={channel.name}
+            className="overflow-hidden rounded-2xl border border-zinc-800 bg-zinc-900"
+          >
+            <div className="flex h-48 items-center justify-center bg-zinc-800 text-zinc-500">
+              {channel.preview}
+            </div>
+
+            <div className="p-6">
+              <h2 className="text-2xl font-bold">{channel.name}</h2>
+              <p className="mt-3 leading-7 text-zinc-300">
+                {channel.description}
+              </p>
+
+              <a
+                href={channel.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-5 inline-block rounded-xl bg-cyan-500 px-4 py-2 font-semibold text-zinc-950 transition hover:bg-cyan-400"
+              >
+                Visit {channel.name}
+              </a>
+            </div>
+          </article>
+        ))}
       </section>
     </main>
   );

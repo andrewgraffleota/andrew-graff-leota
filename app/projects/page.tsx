@@ -1,58 +1,54 @@
-const projects = [
-  {
-    title: "VillageCo",
-    type: "Full-stack / AI Matching",
-    description:
-      "Backend authentication, sitter onboarding APIs, Azure infrastructure problem-solving and hybrid LLM + SQL matching architecture.",
-    tags: ["Python", "PostgreSQL", "Azure", "LLMs"],
-  },
-  {
-    title: "Axis Data",
-    type: "Data Engineering",
-    description:
-      "Snowflake data warehouse, dbt models and Streamlit dashboards for analytics and executive reporting.",
-    tags: ["Snowflake", "dbt", "Streamlit", "Analytics"],
-  },
-  {
-    title: "Easy Read",
-    type: "Full-stack Product",
-    description:
-      "React and TypeScript feature delivery, Playwright testing, Stripe payment flow support and accessibility improvements.",
-    tags: ["React", "TypeScript", "Stripe", "Testing"],
-  },
-  {
-    title: "ĀKI",
-    type: "AI / Student Assistant",
-    description:
-      "An AI timetable and study assistant using LLMs, local models, structured data, RAG and workflow automation.",
-    tags: ["AI", "RAG", "Ollama", "n8n"],
-  },
-];
+import Link from "next/link";
+import { internshipProjects } from "@/data/portfolio";
 
 export default function ProjectsPage() {
   return (
-    <main className="min-h-screen bg-[#050505] px-6 pt-36 pb-24 text-white">
-      <section className="mx-auto max-w-6xl">
-        <p className="mb-3 text-sm font-semibold uppercase tracking-[0.3em] text-blue-400">Projects</p>
-        <h1 className="text-5xl font-black tracking-tight md:text-7xl">Selected work.</h1>
+    <main className="mx-auto max-w-6xl px-4 py-16 text-white">
+      <section className="mb-12">
+        <p className="mb-3 text-sm font-semibold uppercase tracking-widest text-cyan-400">
+          Projects
+        </p>
+        <h1 className="mb-6 text-4xl font-bold tracking-tight md:text-6xl">
+          Portfolio Case Studies
+        </h1>
+        <p className="max-w-3xl text-lg leading-8 text-zinc-300">
+          A collection of academic, internship, AI, cloud, cybersecurity, and
+          software development work. These projects show my growth from study
+          into real production experience.
+        </p>
+      </section>
 
-        <div className="mt-12 grid gap-6 md:grid-cols-2">
-          {projects.map((project) => (
-            <article key={project.title} className="rounded-3xl border border-white/10 bg-white/[0.04] p-8 transition hover:-translate-y-1 hover:bg-white/[0.07]">
-              <p className="mb-3 text-sm font-medium text-blue-400">{project.type}</p>
-              <h2 className="mb-4 text-3xl font-bold">{project.title}</h2>
-              <p className="mb-6 leading-8 text-gray-400">{project.description}</p>
+      <section className="grid gap-6 md:grid-cols-2">
+        {internshipProjects.map((project) => (
+          <article
+            key={project.slug}
+            className="rounded-2xl border border-zinc-800 bg-zinc-900 p-6 transition hover:border-cyan-700"
+          >
+            <p className="text-sm font-semibold text-cyan-400">
+              {project.subtitle}
+            </p>
+            <h2 className="mt-2 text-2xl font-bold">{project.title}</h2>
+            <p className="mt-4 leading-7 text-zinc-300">{project.summary}</p>
 
-              <div className="flex flex-wrap gap-2">
-                {project.tags.map((tag) => (
-                  <span key={tag} className="rounded-full border border-white/10 bg-black/30 px-3 py-1 text-xs text-gray-300">
-                    {tag}
-                  </span>
-                ))}
-              </div>
-            </article>
-          ))}
-        </div>
+            <div className="mt-5 flex flex-wrap gap-2">
+              {project.tech.map((tech) => (
+                <span
+                  key={tech}
+                  className="rounded-full border border-zinc-700 px-3 py-1 text-sm text-zinc-300"
+                >
+                  {tech}
+                </span>
+              ))}
+            </div>
+
+            <Link
+              href={`/projects/${project.slug}`}
+              className="mt-6 inline-block rounded-xl bg-cyan-500 px-4 py-2 font-semibold text-zinc-950 transition hover:bg-cyan-400"
+            >
+              Read more
+            </Link>
+          </article>
+        ))}
       </section>
     </main>
   );
