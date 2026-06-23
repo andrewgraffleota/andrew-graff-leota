@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export default function HomePage() {
   return (
-    <main className="min-h-screen bg-[#050505] px-6 pt-36 pb-24 text-white">
+    <main className="min-h-screen bg-transparent px-6 pt-36 pb-24 text-white">
       <section className="mx-auto flex max-w-6xl flex-col items-center gap-12 md:flex-row">
         <div className="flex-1">
           <p className="mb-4 inline-flex rounded-full border border-white/10 bg-white/5 px-4 py-2 text-sm text-gray-300">

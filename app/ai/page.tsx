@@ -1,6 +1,6 @@
 export default function AIPage() {
   return (
-    <main className="min-h-screen bg-[#050505] px-6 pt-36 pb-24 text-white">
+    <main className="min-h-screen bg-transparent px-6 pt-36 pb-24 text-white">
       <section className="mx-auto max-w-5xl">
         <p className="mb-3 text-sm font-semibold uppercase tracking-[0.3em] text-purple-400">AI</p>
         <h1 className="text-5xl font-black tracking-tight md:text-7xl">Practical AI systems.</h1>

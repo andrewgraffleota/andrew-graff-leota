@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 export default function AboutPage() {
   return (
-    <main className="min-h-screen bg-[#050505] px-6 pt-36 pb-24 text-white">
+    <main className="min-h-screen bg-transparent px-6 pt-36 pb-24 text-white">
       <section className="mx-auto max-w-6xl">
         <div className="flex flex-col items-center gap-12 md:flex-row md:items-start">
           <div className="flex-1">
