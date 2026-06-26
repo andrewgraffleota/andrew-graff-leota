@@ -17,7 +17,7 @@ export default function TptAcademyPage() {
           Case Study
         </p>
         <h1 className="text-4xl font-bold tracking-tight md:text-5xl">
-          Ten Past Tomorrow Academy — AI Education Platform
+          Ten Past Tomorrow Academy: AI Education Platform
         </h1>
         <p className="mt-4 max-w-3xl text-lg leading-8 text-zinc-300">
           An online learning platform delivering AI and automation courses. My
@@ -31,7 +31,7 @@ export default function TptAcademyPage() {
           <h2 className="mb-3 text-2xl font-bold text-cyan-400">What it was</h2>
           <p className="leading-8 text-zinc-300">
             A course delivery platform where automation pipelines help generate,
-            structure, and publish learning content—so technical ideas are
+            structure, and publish learning content so technical ideas are
             communicated clearly and consistently.
           </p>
         </section>

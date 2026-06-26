@@ -10,8 +10,8 @@ export default function AboutPage() {
             <h1 className="text-5xl font-black tracking-tight md:text-7xl">Andrew Graff Leota.</h1>
 
             <p className="mt-8 text-xl leading-9 text-gray-400">
-              I&apos;m a Wellington-based developer building across software engineering, data engineering,
-              cybersecurity, AI automation and digital content.
+              I've recently completed a Summer Internship with Do AI in May. I have gained valuable experience and skills across software engineering, data engineering,
+              cybersecurity, AI automation and digital content. I've created this website portfolio to simply showcase my work and skills. 
             </p>
           </div>
 
@@ -28,10 +28,11 @@ export default function AboutPage() {
 
         <div className="mt-12 grid gap-6 md:grid-cols-2">
           <Card title="Background">
-            I have studied a Bachelor of Information Technology majoring in Cyber Security and completed full-stack internship work across live client products.
+            I have studied a Bachelor of Information Technology majoring in Cyber Security and completed full-stack internship work across live client products. At the minute,
+            I've been working on this website, building an app, and venturing between different technologies. 
           </Card>
           <Card title="What I'm building toward">
-            I&apos;m focused on becoming a strong software engineer with a security mindset, practical AI skills and the ability to communicate clearly.
+            I&apos;m focused on becoming a strong software engineer or cybersecurity analyst with a security mindset, practical AI skills and the ability to communicate clearly. 
           </Card>
         </div>
       </section>

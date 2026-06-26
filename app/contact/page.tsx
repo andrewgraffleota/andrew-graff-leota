@@ -6,7 +6,7 @@ export default function ContactPage() {
         <h1 className="text-5xl font-black tracking-tight md:text-7xl">Let’s connect.</h1>
 
         <p className="mt-8 text-xl leading-9 text-gray-400">
-          I’m open to software engineering, data engineering, cybersecurity and AI-related opportunities.
+          I’m open to software engineering, data engineering, cybersecurity and AI-related opportunities. So please feel free to contact me.
         </p>
 
         <div className="mt-12 flex flex-col gap-4 sm:flex-row">

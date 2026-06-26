@@ -13,7 +13,7 @@ export default function CertificationsPage() {
         <p className="max-w-3xl text-lg leading-8 text-zinc-300">
           Alongside my degree, I completed industry-aligned certifications to
           strengthen my understanding of cloud computing, cloud security,
-          network security, risk management, and security operations.
+          network security, risk management, and security operations. 
         </p>
       </section>
 

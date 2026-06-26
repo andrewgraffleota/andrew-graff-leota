@@ -1,9 +1,22 @@
-const channels = [
+import VideoPreview from '@/components/ui/video-preview';
+
+type Channel = {
+  name: string;
+  description: string;
+  link: string;
+  preview: string;
+  videoSrc?: string;
+  videoPoster?: string;
+};
+
+const channels: Channel[] = [
   {
     name: "YouTube",
     description:
       "Long-form videos covering my fitness journey, learning process, projects, and personal development.",
     link: "https://youtube.com/@andrewgraffleota",
+    videoSrc: "/clips/youtube-preview.mp4",
+    videoPoster: "/clips/youtube-preview.jpg",
     preview: "Video preview area",
   },
   {
@@ -11,6 +24,8 @@ const channels = [
     description:
       "Short-form content showing training, lifestyle, study, and behind-the-scenes clips.",
     link: "https://tiktok.com/@andrewgraffleota",
+    videoSrc: "/clips/tiktok-preview.mp4",
+    videoPoster: "/clips/tiktok-preview.jpg",
     preview: "Short-form preview area",
   },
   {
@@ -52,7 +67,16 @@ export default function ContentPage() {
             className="overflow-hidden rounded-2xl border border-zinc-800 bg-zinc-900"
           >
             <div className="flex h-48 items-center justify-center bg-zinc-800 text-zinc-500">
-              {channel.preview}
+              {channel.videoSrc ? (
+                <VideoPreview
+                  src={channel.videoSrc}
+                  poster={channel.videoPoster}
+                  label={`${channel.name} preview`}
+                  className="w-full"
+                />
+              ) : (
+                channel.preview
+              )}
             </div>
 
             <div className="p-6">

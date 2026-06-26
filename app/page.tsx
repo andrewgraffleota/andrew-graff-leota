@@ -11,11 +11,11 @@ export default function HomePage() {
           </p>
 
           <h1 className="text-5xl font-black leading-tight tracking-tight md:text-7xl">
-            Building software, data systems and digital communities.
+            Building software, data systems and projects with AI.
           </h1>
 
           <p className="mt-6 max-w-2xl text-lg leading-8 text-gray-400 md:text-xl">
-            I&apos;m Andrew Graff Leota, a Wellington-based developer with experience across full-stack
+            Talofa lava I&apos;m Andrew Graff Leota, a Wellington-based developer/cybersecurity graduate with experience across full-stack
             engineering, data engineering, cybersecurity, AI automation, and content creation.
           </p>
 

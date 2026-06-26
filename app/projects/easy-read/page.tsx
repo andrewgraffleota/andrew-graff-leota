@@ -18,7 +18,7 @@ export default function EasyReadPage() {
           Case Study
         </p>
         <h1 className="text-4xl font-bold tracking-tight md:text-5xl">
-          Easy Read — Accessible Document SaaS
+          Easy Read: Accessible Document SaaS
         </h1>
         <p className="mt-4 max-w-3xl text-lg leading-8 text-zinc-300">
           A SaaS product that converts documents into accessible Easy Read

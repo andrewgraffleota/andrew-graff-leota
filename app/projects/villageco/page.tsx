@@ -18,7 +18,7 @@ export default function VillageCoPage() {
           Case Study
         </p>
         <h1 className="text-4xl font-bold tracking-tight md:text-5xl">
-          VillageCo — Childcare Matching Platform
+          VillageCo: Childcare Matching Platform
         </h1>
         <p className="mt-4 max-w-3xl text-lg leading-8 text-zinc-300">
           A childcare matching platform connecting families with childcare

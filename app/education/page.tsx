@@ -24,7 +24,7 @@ export default function EducationPage() {
           I completed a Bachelor of Information Technology, majoring in Cyber
           Security. This page highlights my academic pathway, grades, technical
           papers, and the areas of IT and cybersecurity I developed throughout
-          the degree.
+          the degree. I'm currently in the process of sharing some of the work done here at academia level. 
         </p>
       </section>
 

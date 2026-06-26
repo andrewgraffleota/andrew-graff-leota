@@ -17,7 +17,7 @@ export default function AxisDataPage() {
           Case Study
         </p>
         <h1 className="text-4xl font-bold tracking-tight md:text-5xl">
-          Axis Data — Sports Medicine Analytics
+          Axis Data: Sports Medicine Analytics
         </h1>
         <p className="mt-4 max-w-3xl text-lg leading-8 text-zinc-300">
           A sports medicine analytics platform involving Snowflake, dbt,
