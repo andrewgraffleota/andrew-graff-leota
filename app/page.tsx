@@ -35,7 +35,7 @@ export default function HomePage() {
           </div>
         </div>
 
-        <div className="relative h-72 w-72 shrink-0 overflow-hidden rounded-full border border-white/10 bg-white/5 shadow-2xl md:h-80 md:w-80">
+        <div className="relative h-64 w-64 shrink-0 overflow-hidden rounded-full border border-white/10 bg-white/5 shadow-2xl md:h-72 md:w-72">
           <Image
             src="/aglside.png"
             alt="Andrew Graff Leota"
