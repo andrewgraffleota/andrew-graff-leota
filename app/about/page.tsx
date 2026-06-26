@@ -6,8 +6,9 @@ export default function AboutPage() {
       <section className="mx-auto max-w-6xl">
         <div className="flex flex-col items-center gap-12 md:flex-row md:items-start">
           <div className="flex-1">
-            <p className="mb-3 text-sm font-semibold uppercase tracking-[0.3em] text-blue-400">About</p>
-            <h1 className="text-5xl font-black tracking-tight md:text-7xl">Andrew Graff Leota.</h1>
+            <p className="mb-3 text-sm font-semibold uppercase tracking-[0.3em] text-blue-400">
+              About
+            </p>
 
             <p className="mt-8 text-xl leading-9 text-gray-400">
               I've recently completed a Summer Internship with Do AI in May. I have gained valuable experience and skills across software engineering, data engineering,
@@ -15,7 +16,7 @@ export default function AboutPage() {
             </p>
           </div>
 
-          <div className="relative h-72 w-72 shrink-0 overflow-hidden rounded-full border border-white/10 bg-white/5 shadow-2xl md:h-80 md:w-80">
+          <div className="relative h-64 w-64 shrink-0 overflow-hidden rounded-full border border-white/10 bg-white/5 shadow-2xl md:h-72 md:w-72">
             <Image
               src="/aglside.png"
               alt="Andrew Graff Leota"
