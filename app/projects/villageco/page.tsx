@@ -18,10 +18,10 @@ export default function VillageCoPage() {
           Case Study
         </p>
         <h1 className="text-4xl font-bold tracking-tight md:text-5xl">
-          Secure Platform with Backend + AI Matching
+          Childcare Matching Platform
         </h1>
         <p className="mt-4 max-w-3xl text-lg leading-8 text-zinc-300">
-          A secure platform connecting users through backend services and an AI
+          A childcare matching platform with a secure backend and an AI
           matching pipeline. My work focused on authentication, onboarding and
           API design, database security, infrastructure, and AI architecture
           research.
