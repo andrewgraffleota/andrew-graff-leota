@@ -14,7 +14,7 @@ export default function AkongaPage() {
           Ākonga
         </h1>
         <p className="mt-4 max-w-3xl text-lg leading-8 text-zinc-300">
-          Ākonga is a paper-driven slide series from my studies—updated bit
+          Ākonga is a paper-driven slide series from my studies updated bit
           by bit as I refine understanding and turn key ideas into practical
           technical skills.
         </p>
