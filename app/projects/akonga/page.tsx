@@ -1,7 +1,7 @@
-import Image from "next/image";
 import Link from "next/link";
 
 import { akongaSlides } from "@/data/akonga";
+import SlideLightboxGallery from "@/components/ui/slide-lightbox";
 
 export default function AkongaPage() {
   return (
@@ -14,8 +14,9 @@ export default function AkongaPage() {
           Ākonga
         </h1>
         <p className="mt-4 max-w-3xl text-lg leading-8 text-zinc-300">
-          A slide series from my studies as I update these bit by bit. I
-          refine understanding and turn ideas into practical technical skills.
+          Ākonga is a paper-driven slide series from my studies—updated bit
+          by bit as I refine understanding and turn key ideas into practical
+          technical skills.
         </p>
       </section>
 
@@ -49,23 +50,12 @@ export default function AkongaPage() {
               ) : null}
             </div>
 
-            <div className="mt-5 grid gap-4 md:grid-cols-2">
-              {slide.images.map((img) => (
-                <div
-                  key={img.src}
-                  className="relative aspect-[16/10] overflow-hidden rounded-xl border border-zinc-800 bg-zinc-800"
-                >
-                  <Image
-                    src={img.src}
-                    alt={img.alt}
-                    fill
-                    className="object-cover"
-                    sizes="(max-width: 768px) 100vw, 50vw"
-                    priority={slide.id === "design" && img.src.endsWith("/1.png")}
-                  />
-                </div>
-              ))}
-            </div>
+            <SlideLightboxGallery
+              images={slide.images}
+              prioritySrc={
+                slide.id === "design" ? "/akonga/design/1.png" : undefined
+              }
+            />
 
             {slide.takeaway ? (
               <div className="mt-5 rounded-xl border border-zinc-800 bg-zinc-950/30 p-4">
