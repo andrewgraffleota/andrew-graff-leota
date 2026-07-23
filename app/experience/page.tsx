@@ -36,7 +36,9 @@ export default function ExperiencePage() {
         <h2 className="mb-6 text-2xl font-bold">Client Product Case Studies</h2>
 
         <div className="grid gap-6 md:grid-cols-2">
-          {internshipProjects.map((project) => (
+          {internshipProjects
+            .filter((project) => project.slug !== "akonga")
+            .map((project) => (
             <article
               key={project.slug}
               className="rounded-2xl border border-zinc-800 bg-zinc-900 p-6 transition hover:border-cyan-700"
