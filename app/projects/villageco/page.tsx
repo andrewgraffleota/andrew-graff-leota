@@ -1,11 +1,11 @@
 import Link from "next/link";
 
 const techStack = [
-  "Python Azure Functions",
-  "PostgreSQL",
-  "Clerk",
-  "Azure VNet",
-  "GitHub Actions",
+  "Backend APIs",
+  "Database security (RLS)",
+  "Authentication & authorization",
+  "Private networking",
+  "CI/CD pipelines",
   "REST APIs",
   "LLM Architecture",
 ];
@@ -18,12 +18,12 @@ export default function VillageCoPage() {
           Case Study
         </p>
         <h1 className="text-4xl font-bold tracking-tight md:text-5xl">
-          VillageCo: Childcare Matching Platform
+          Secure Platform with Backend + AI Matching
         </h1>
         <p className="mt-4 max-w-3xl text-lg leading-8 text-zinc-300">
-          A childcare matching platform connecting families with childcare
-          providers. My work focused on backend authentication, onboarding
-          APIs, database security, infrastructure, and AI matching architecture
+          A secure platform connecting users through backend services and an AI
+          matching pipeline. My work focused on authentication, onboarding and
+          API design, database security, infrastructure, and AI architecture
           research.
         </p>
       </section>
@@ -34,9 +34,8 @@ export default function VillageCoPage() {
             What it was
           </h2>
           <p className="leading-8 text-zinc-300">
-            A platform that helps families connect with childcare providers
-            through secure onboarding and a practical matching system designed
-            to work with both SQL data and LLM-based reasoning.
+            A platform that supports secure onboarding and a matching system that
+            combines relational data with LLM-based reasoning.
           </p>
         </section>
 
@@ -45,16 +44,15 @@ export default function VillageCoPage() {
             What I worked on
           </h2>
           <ul className="list-disc space-y-2 pl-5 text-zinc-300">
-            <li>Built core authentication backend using Clerk webhooks</li>
-            <li>Implemented PostgreSQL row-level security patterns</li>
+            <li>Built authentication and authorization backend services</li>
+            <li>Implemented database row-level security and access controls</li>
             <li>
-              Built sitter onboarding APIs for skills, hobbies, interests, and
-              languages
+              Built onboarding APIs for collecting user preferences and profile data
             </li>
-            <li>Configured Azure VNet integration for private database connectivity</li>
-            <li>Fixed GitHub Actions CI/CD deployment pipelines</li>
+            <li>Configured private networking for secure database connectivity</li>
+            <li>Maintained CI/CD workflows for reliable deployments</li>
             <li>
-              Researched hybrid SQL plus LLM matching architecture
+              Researched hybrid SQL + LLM matching architecture and evaluation
             </li>
           </ul>
         </section>
@@ -81,7 +79,7 @@ export default function VillageCoPage() {
           </h2>
           <p className="leading-8 text-zinc-300">
             End-to-end backend ownership, production infrastructure problem
-            solving, practical AI decision-making, and secure database design.
+            solving, practical AI pipeline design, and secure database design.
           </p>
         </section>
       </div>

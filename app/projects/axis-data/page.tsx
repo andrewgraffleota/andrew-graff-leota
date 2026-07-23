@@ -1,9 +1,9 @@
 import Link from "next/link";
 
 const techStack = [
-  "Snowflake",
+  "Cloud data warehouse",
   "dbt",
-  "Streamlit",
+  "Analytics dashboards",
   "SQL",
   "OpenAPI",
   "Data Modelling",
@@ -17,12 +17,12 @@ export default function AxisDataPage() {
           Case Study
         </p>
         <h1 className="text-4xl font-bold tracking-tight md:text-5xl">
-          Axis Data: Sports Medicine Analytics
+          Data Engineering & Analytics Platform
         </h1>
         <p className="mt-4 max-w-3xl text-lg leading-8 text-zinc-300">
-          A sports medicine analytics platform involving Snowflake, dbt,
-          Streamlit dashboards, data quality investigation, and technical API
-          documentation.
+          A production data engineering and analytics workflow using a cloud
+          data warehouse, dbt models, dashboard development, data quality
+          investigation, and integration-ready API documentation.
         </p>
       </section>
 
@@ -30,10 +30,9 @@ export default function AxisDataPage() {
         <section className="rounded-2xl border border-zinc-800 bg-zinc-900 p-6">
           <h2 className="mb-3 text-2xl font-bold text-cyan-400">What it was</h2>
           <p className="leading-8 text-zinc-300">
-            A data and analytics system designed to support reporting and
-            decision-making across sports medicine operations, transforming
-            large referral datasets into stakeholder-ready dashboards and
-            documentation.
+            A reporting-focused data and analytics system designed to support
+            decision-making and transform large datasets into stakeholder-ready
+            dashboards and documentation.
           </p>
         </section>
 
@@ -42,17 +41,17 @@ export default function AxisDataPage() {
             What I worked on
           </h2>
           <ul className="list-disc space-y-2 pl-5 text-zinc-300">
-            <li>Built dbt dimension modelling across 174,000+ referral records</li>
+            <li>Built dbt models for dimensional modeling and consistent analytics</li>
             <li>
-              Developed Streamlit dashboards for business and board-level audiences
+              Developed interactive dashboards for non-technical stakeholders
             </li>
             <li>
-              Investigated data quality issues including orphan patient records
+              Investigated data quality issues (missing relationships, invalid values)
             </li>
             <li>
-              Worked with Snowflake SQL, schema tests, and incremental model patterns
+              Used SQL best practices, dbt schema tests, and incremental model patterns
             </li>
-            <li>Created OpenAPI 3.0 documentation for vendor integration</li>
+            <li>Created OpenAPI 3.0 documentation for integration and vendor APIs</li>
           </ul>
         </section>
 
@@ -75,8 +74,8 @@ export default function AxisDataPage() {
             What this shows
           </h2>
           <p className="leading-8 text-zinc-300">
-            Production data engineering, dashboard design for non-technical
-            stakeholders, data quality analysis, and integration documentation.
+            Production data engineering, dashboard design, data quality analysis, and
+            integration documentation.
           </p>
         </section>
       </div>
