@@ -232,6 +232,14 @@ export const certifications = [
 
 export const internshipProjects = [
   {
+    slug: "akonga",
+    title: "AGL: ākonga",
+    subtitle: "Paper-led slide series",
+    summary:
+      "A study-to-practice slide series where I document chosen papers and turn key ideas into practical technical skills—shared bit by bit.",
+    tech: ["Academic synthesis", "Slides", "Applied learning"],
+  },
+  {
     slug: "villageco",
     title: "Secure Matching Platform",
     subtitle: "Backend + onboarding + AI matching",
