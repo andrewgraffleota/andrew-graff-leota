@@ -236,7 +236,7 @@ export const internshipProjects = [
     title: "Ākonga",
     subtitle: "Paper-led slide series",
     summary:
-      "A study-to-practice slide series where I document chosen papers and turn key ideas into practical technical skills—shared bit by bit.",
+      "A study-to-practice slide series where I document chosen papers and turn key ideas into practical technical skills.",
     tech: ["Academic synthesis", "Slides", "Applied learning"],
   },
   {
