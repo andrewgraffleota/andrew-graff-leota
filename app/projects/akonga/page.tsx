@@ -11,10 +11,10 @@ export default function AkongaPage() {
           Project
         </p>
         <h1 className="text-4xl font-bold tracking-tight md:text-5xl">
-          AGL: ākonga
+          Ākonga
         </h1>
         <p className="mt-4 max-w-3xl text-lg leading-8 text-zinc-300">
-          A paper-driven slide series from my studies—updated bit by bit as I
+          A slide series from my studies as I update these bit by bit. I
           refine understanding and turn ideas into practical technical skills.
         </p>
       </section>
