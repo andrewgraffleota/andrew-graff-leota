@@ -47,9 +47,9 @@ export default function Portfolio() {
           <div className="grid md:grid-cols-2 gap-8">
             {/* Project 1 */}
             <div className="bg-gray-50 rounded-2xl p-8 border border-gray-100 hover:shadow-xl transition duration-300">
-              <h3 className="text-2xl font-bold mb-3">VillageCo</h3>
+              <h3 className="text-2xl font-bold mb-3">Secure Matching Platform</h3>
               <p className="text-gray-600 mb-6">
-                Designed the core authentication backend and sitter onboarding APIs. Solved production infrastructure challenges using Azure VNet and built a hybrid LLM + SQL matching architecture.
+                Designed the core authentication backend and onboarding APIs. Solved production infrastructure challenges using private networking and built a hybrid LLM + SQL matching architecture.
               </p>
               <div className="flex flex-wrap gap-2">
                 <span className="bg-blue-100 text-blue-800 text-xs font-semibold px-3 py-1 rounded-full">PostgreSQL</span>
@@ -60,14 +60,14 @@ export default function Portfolio() {
 
             {/* Project 2 */}
             <div className="bg-gray-50 rounded-2xl p-8 border border-gray-100 hover:shadow-xl transition duration-300">
-              <h3 className="text-2xl font-bold mb-3">Axis Data</h3>
+              <h3 className="text-2xl font-bold mb-3">Data & Analytics Platform</h3>
               <p className="text-gray-600 mb-6">
-                Engineered a Snowflake data warehouse and dbt models processing 174,000+ referral records. Developed executive-facing Streamlit dashboards for sports medicine analytics.
+                Engineered a cloud data warehouse and dbt models for analytics workflows. Developed dashboards with data-quality checks and integration-ready API documentation.
               </p>
               <div className="flex flex-wrap gap-2">
-                <span className="bg-purple-100 text-purple-800 text-xs font-semibold px-3 py-1 rounded-full">Snowflake</span>
+                <span className="bg-purple-100 text-purple-800 text-xs font-semibold px-3 py-1 rounded-full">Cloud Data Warehouse</span>
                 <span className="bg-purple-100 text-purple-800 text-xs font-semibold px-3 py-1 rounded-full">dbt</span>
-                <span className="bg-purple-100 text-purple-800 text-xs font-semibold px-3 py-1 rounded-full">Streamlit</span>
+                <span className="bg-purple-100 text-purple-800 text-xs font-semibold px-3 py-1 rounded-full">Dashboards</span>
               </div>
             </div>
 

@@ -233,10 +233,10 @@ export const certifications = [
 export const internshipProjects = [
   {
     slug: "villageco",
-    title: "VillageCo",
-    subtitle: "Childcare matching platform",
+    title: "Secure Matching Platform",
+    subtitle: "Backend + onboarding + AI matching",
     summary:
-      "Built backend authentication, onboarding APIs, database security, Azure networking, and matching architecture research for a childcare matching product.",
+      "Built backend authentication, onboarding APIs, database security, private networking, and AI matching architecture research for a secure matching product.",
     tech: [
       "Python Azure Functions",
       "PostgreSQL",
@@ -263,10 +263,10 @@ export const internshipProjects = [
   },
   {
     slug: "axis-data",
-    title: "Axis Data",
-    subtitle: "Sports medicine analytics platform",
+    title: "Data & Analytics Platform",
+    subtitle: "dbt + dashboards + data quality",
     summary:
-      "Built dbt models, Snowflake data workflows, Streamlit dashboards, data quality reports, and OpenAPI integration documentation.",
+      "Built dbt models, cloud data workflows, analytics dashboards, data quality reports, and OpenAPI integration documentation.",
     tech: ["Snowflake", "dbt", "Streamlit", "SQL", "OpenAPI", "Data Modelling"],
   },
   {

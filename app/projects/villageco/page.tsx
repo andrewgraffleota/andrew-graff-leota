@@ -10,7 +10,7 @@ const techStack = [
   "LLM Architecture",
 ];
 
-export default function VillageCoPage() {
+export default function ChildcareMatchingPlatformPage() {
   return (
     <main className="mx-auto max-w-4xl px-4 py-16 text-white">
       <section className="mb-10">
