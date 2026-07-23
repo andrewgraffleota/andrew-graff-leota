@@ -21,8 +21,8 @@ export default function ExperiencePage() {
       <section className="mb-12 rounded-2xl border border-zinc-800 bg-zinc-900 p-6">
         <h2 className="text-2xl font-bold">Do AI Limited</h2>
         <p className="mt-2 text-zinc-400">
-          Software Developer Intern · Wellington, New Zealand · January 2026 –
-          April 2026
+          Software Developer Intern · Wellington, New Zealand · November 2025 –
+          May 2026
         </p>
         <p className="mt-5 max-w-4xl leading-8 text-zinc-300">
           During this internship, I worked across backend APIs, React and
